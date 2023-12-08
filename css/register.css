@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #00CFFD;
+}
+header nav {
+  display: flex;
+  justify-content: left;
+  margin: 0px;
+  padding: 20px;
+}
+header nav a {
+  color: aliceblue;
+  font-size: 30px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+main {
+  background-color: #EBEBEB;
+}
+main article {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+main article form {
+  padding: 50px;
+  width: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+main article form h3 {
+  display: flex;
+  justify-content: left;
+}
+main article form div {
+  justify-content: center;
+}
+main article :hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #C760FF;
+}
+footer .copy {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 15px;
+}
+footer .redes {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 15px;
+}
+footer .redes a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=register.css.map */

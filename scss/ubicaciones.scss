@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+header{
+    background-color: #00CFFD;
+    nav{
+        display: flex;
+        justify-content: left;
+        margin: 0px;
+        padding: 20px;
+        a{
+            color: aliceblue;
+            font-size: 30px;
+            font-style: italic;
+            text-decoration: none;
+        }
+    }
+}
+main{
+    background-color: #EBEBEB;
+    section{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 25px;
+        transition: box-shadow 0.3s ease-in-out;
+        div{
+            height: 500px;
+            margin: 50px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            h3{
+                padding: 20px;
+                text-align: center;
+                font-weight: 100;
+            }
+            iframe{
+                border-radius: 20px;
+                height: 100%;
+                width: 100%;
+            }
+        }
+        :hover{
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    }
+    article{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        p{
+            padding: 30px;
+            font-size: 25px;
+            a{
+                text-decoration: none;
+                color: blue;
+            }
+        }
+        :hover{
+            font-size:xx-large;
+        }
+    }
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #C760FF;
+    .copy{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .redes{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 15px;
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+        }
+    }
+}

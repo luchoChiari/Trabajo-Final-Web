@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #00CFFD;
+}
+header nav {
+  display: flex;
+  justify-content: left;
+  margin: 0px;
+  padding: 20px;
+}
+header nav a {
+  color: aliceblue;
+  font-size: 30px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+main {
+  background-color: #EBEBEB;
+}
+main section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 25px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+main section div {
+  height: 500px;
+  margin: 50px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+main section div h3 {
+  padding: 20px;
+  text-align: center;
+  font-weight: 100;
+}
+main section div iframe {
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+}
+main section :hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+main article {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+main article p {
+  padding: 30px;
+  font-size: 25px;
+}
+main article p a {
+  text-decoration: none;
+  color: blue;
+}
+main article :hover {
+  font-size: xx-large;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #C760FF;
+}
+footer .copy {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 15px;
+}
+footer .redes {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 15px;
+}
+footer .redes a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=ubicaciones.css.map */
