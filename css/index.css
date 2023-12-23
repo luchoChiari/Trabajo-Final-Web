@@ -13,6 +13,9 @@ header nav {
   margin: 0px;
   padding: 20px;
 }
+header nav div img {
+  width: 50px;
+}
 header nav a {
   color: aliceblue;
   font-size: 30px;
@@ -97,6 +100,30 @@ header nav a {
   box-shadow: 0 8px 16px #C55AFF;
 }
 
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #C760FF;
+}
+footer .copy {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 15px;
+}
+footer .redes {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 15px;
+}
+footer .redes a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
 /* Tamaño tablet*/
 @media (max-width: 1072px) {
   .main {
@@ -120,29 +147,6 @@ header nav a {
     /* gap: 10px; */
     grid-template-areas: "area1" "area2" "area3" "area4";
   }
-}
-footer {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: #C760FF;
-}
-footer .copy {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  padding: 15px;
-}
-footer .redes {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  padding: 15px;
-}
-footer .redes a {
-  text-decoration: none;
-  color: white;
-  padding: 5px;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -9,6 +9,11 @@ header{
         justify-content: left;
         margin: 0px;
         padding: 20px;
+        div{
+            img{
+                width: 50px;
+            }
+        }
         a{
             color: aliceblue;
             font-size: 30px;
@@ -89,7 +94,30 @@ header{
 #area4:hover{
     box-shadow: 0 8px 16px #C55AFF;
 }
-  /* Tamaño tablet*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #C760FF;
+    .copy{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .redes{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 15px;
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+        }
+    }
+}
+/* Tamaño tablet*/
 @media (max-width: 1072px) {
     .main {
       border: 1px solid rgb(0, 0, 0);
@@ -119,28 +147,5 @@ header{
         "area2"
         "area3"
         "area4";
-    }
-}
-footer{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: #C760FF;
-    .copy{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        padding: 15px;
-    }
-    .redes{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        padding: 15px;
-        a{
-            text-decoration: none;
-            color: white;
-            padding: 5px;
-        }
     }
 }
